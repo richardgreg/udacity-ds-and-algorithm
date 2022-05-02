@@ -1,0 +1,6 @@
+I used a dictionary data structure because of the O(1) time complexity of
+a dictionary data structure's retrieval and insertion operation.
+
+The space complexity is O(n), where n is the capacity initiated during the
+class creation. The time complexity is also O(n) due to the min method
+that retrieves the least used cache.

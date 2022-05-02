@@ -1,0 +1,4 @@
+Each step of creating a frequency table, iterating over the priority
+queue and creating a Huffman tree, traversing the Huffman tree and
+creating a table with char and bits, and finally creating an encoded
+data table all have a time and space complexity of O(n)

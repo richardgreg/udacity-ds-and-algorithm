@@ -1,0 +1,12 @@
+My approach to the union and intersection of a linked list problem is to
+extract the values of the linked list and store them in a set data structure.
+And then perform operations on them to find the union and intersection and
+append the values to an empty linked list.
+
+The time complexity for the union function is O(n + n) = O(n), iterating over
+the combined set and appending the values to a linked list data structure.
+The space complexity is O(n), where n is the number of values to be appended
+to the linked list.
+
+The worst case time complexity if the intersection function is O(n), whereby
+both linked lists have the same values.

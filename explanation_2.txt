@@ -1,0 +1,3 @@
+The time complexity of the file recursion solution is O(n),
+where n is the number of items returned by os.listdir. Space
+remains constant.

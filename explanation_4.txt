@@ -1,0 +1,3 @@
+The time complexity of the active directory solution is O(n),
+where n is the number of groups in the parent node group branch.
+Space is constant

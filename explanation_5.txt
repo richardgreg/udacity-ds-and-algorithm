@@ -1,0 +1,9 @@
+I used the linked list data structure because the structure of a
+blockchain is identical to that of a linked list. And methods have
+been invented to operate on a linked list as efficiently as possible.
+
+Adding a block to a blockchain appends to the last block. The worst
+case of the operation is O(n), where n is the size of the blockchain.
+
+Memory wise, using a linked list is efficient because the size of a
+linked list is not preset.
