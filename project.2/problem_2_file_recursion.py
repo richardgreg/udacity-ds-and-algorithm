@@ -28,7 +28,8 @@ def find_files(suffix, path):
             elif os.path.isdir(os.path.join(path, item)):
                 traverse(os.path.join(path, item))
 
-    traverse(path)
+    if os.path.isdir(path):
+        traverse(path)
 
     return paths_list
 
@@ -42,4 +43,7 @@ print(find_files('.h', './testdir2')) # An empty folder should return an empty l
 # []
 
 print(find_files('.h', './testdir3')) # A nested folder with no entry should return an empty list
+# []
+
+print(find_files('.h', './testdir3/abc')) # A non-existent path should return an empty list
 # []
